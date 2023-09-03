@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>IN FITNESS - CONTACT</title>
+        <style>
+            p
+            {color:whitesmoke}
+            label
+            {color:whitesmoke}
+            ul
+            {color:whitesmoke}
+            #links
+            {color: whitesmoke;}
+        </style>
+    </head>
+    <body background="Images/greentexture.jpg">
+
+        <table border="0" width="100%" height="150" background="Images/grey texture.jpg">
+            <tr>
+                <td align="center"><img src="Images/logo.jpg" alt="Λογότυπο" width="150" height="120" ></td>
+            </tr>
+        </table>
+
+        <p align="center">Σας ευχαριστούμε που μας επισκεφθήκατε. Μπορείτε να επιλέξετε έναν από τους παρακάτω τρόπους επικοινωνίας,<br>
+             και θα φροντίσουμε να είμαστε στην διάθεσή σας το συντομότερο δυνατό. </p>
+             
+             <br>
+        
+        <table align="center" width="60%"">
+            <tr>
+                <td>
+                    <form action="/problem_solving.php" method="Post"> Δώσε αριθμό < input type="number" name="ar" >
+        
+                    <!--- η μεθοδος GET (προεπιλεγμένα) χρησιμοποιείται ηθελημένα, καθώς δεν περιέχεται κάποιο στοιχεία που είναι απολύτως αναγκαίο 
+                        να προστατευθεί-->
+                        <label for="fname">Όνομα</label><br>
+                        <input type="text" id="fname" name="name"><br><br>
+                        <label for="mail">E-mail</label><br>
+                        <input type="text" id="mail" name="email"><br><br>
+                        <label>Πού βρίσκεται το κατάστημα για το οποίο ενδιαφέρεσαι;</label><br>
+                        <select multiple name="city">
+                            <option value="general">Κανένα</option>
+                            <option value="thess">Θεσσαλονίκη</option>
+                            <option value="athens">Αθήνα</option>
+                            <option value="patra">Πάτρα</option>
+                        </select><br><br>
+                        <label>Ποιά από τις παρακάτω κατηγορίες αφορά το ζήτημά σας;</label><br>
+                        <select name="category">
+                            <option value="XwrosVarwn">Χώρος Βαρών</option>
+                            <option value="Omadika">Ομαδικά προγράμματα</option>
+                            <option value="Paroxes">Παροχές - Εγκαταστάσεις</option>
+                            <option value="Sindromh">Συνδρομή</option>
+                        </select><br><br>
+                        <textarea name="issue" cols="41" rows="5"></textarea><br>
+                        <input type="submit">  
+                </td>
+                <td>
+                    <p align="center">Διαφορετικά μπορείς να επικοινωνήσεις μαζί μας στα:<br>
+                        <ul>
+                            <li>support@infitness.gr</li>
+                            <li>2310 459832</li>
+                            <li>ή να έρθεις σε κάποιο από τα καταστήματά μας!</li>
+                        </ul> 
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <nav>
+            <table align="center" id="links">
+                <tr>
+                    <td>|</td>
+                    <td><a href="index.html" target="_blank" style="color:whitesmoke">Αρχική</a></td>
+                    <td>|</td>
+                    <td><a href="aboutus.html" target="_blank" style="color:whitesmoke">Σχετικά με μας</a></td>
+                    <td>|</td>
+                </tr>
+            </table>
+        </nav>
+        <br>
+        
+    </body>
+</html>
